@@ -319,6 +319,34 @@ h2 {
     }
   }
 
+  @media print{
+    .footer-basic, .footer-basic *{
+      display: none !important;
+    }
+  }
 
 
+  @media print{
+    .agregar_descripcion, .agregar_descripcion *{
+      display: none !important;
+    }
+  }
+  
+  @media print{
+    .agregar_tipo, .agregar_tipo *{
+      display: none !important;
+    }
+  }
+
+  @media print{
+    .agregar_valor, .agregar_valor *{
+      display: none !important;
+    }
+  }
+
+  @media print{
+    .agregar_btn, .agregar_btn *{
+      display: none !important;
+    }
+  }
   /* Credit to https://epicbootstrap.com/snippets/footer-basic */
